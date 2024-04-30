@@ -9,7 +9,7 @@ import { HousingLocation } from '../housinglocation';
   imports: [CommonModule],
   template: `
   <article class="flex lg:flex-row-reverse flex-col justify-between w-full p-2">
-    <img class="listing-photo lg:h-[40%] lg:w-[60%] w-full h-fit rounded-md" [src]="housingLocation?.photo"
+    <img class="listing-photo lg:h-[30rem] lg:w-[60%] w-full h-fit rounded-md" [src]="housingLocation?.photo"
       alt="Exterior photo of {{housingLocation?.name}}"/>
     <section class="listing-description">
       <h2 class="listing-heading text-3xl font-bold">{{housingLocation?.name}}</h2>
